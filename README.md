@@ -8,14 +8,14 @@ Please use Gecode Solver 4.2.0 to run these files.
 
 Put GWIC folder into gecode folder and efpa_lresbds_GWIC.cpp file into example folder.
 
-To run the EFPA problem (e.g. (5 3 3 4)) using one of the symmetry breaking methods NONE/DoubleLex/SnakeLex/LDSB/LReSBDS:
+To run the EFPA problem (e.g. (3 4 6 4)) using one of the symmetry breaking methods NONE/DoubleLex/SnakeLex/LDSB/LReSBDS:
 
-./efpa_lresbds_GWIC -search none 5 3 3 4
+./efpa_lresbds_GWIC -search none 3 4 6 4
 
-./efpa_lresbds_GWIC -search double 5 3 3 4
+./efpa_lresbds_GWIC -search double 3 4 6 4
 
-./efpa_lresbds_GWIC -search snake 5 3 3 4
+./efpa_lresbds_GWIC -search snake 3 4 6 4
 
-./efpa_lresbds_GWIC -search ldsb 5 3 3 4
+./efpa_lresbds_GWIC -search ldsb 3 4 6 4
 
-./efpa_lresbds_GWIC -search lresbds 5 3 3 4
+./efpa_lresbds_GWIC -search lresbds 3 4 6 4
